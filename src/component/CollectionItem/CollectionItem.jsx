@@ -1,9 +1,18 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import './CollectionItem.scss'
 import CustomButton from '../CustomButton/CustomButton';
 
 const CollectionItem = ({item}) => {
     // const {id,name,price,imageUrl} = props.item;
+    // const [collectionItem, setCollectionItem] = useState();
+    // useEffect(() => {
+    //   first
+    
+    //   return () => {
+    //     second
+    //   }
+    // }, [third])
+    
   return (
     <div className='collection-item'>
         {/* {props.items.map((item,index)=>{

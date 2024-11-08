@@ -1,5 +1,5 @@
 import React from 'react'
-import './CartDropdown.css'
+import './CartDropdown.scss'
 const CartDropdown = () => {
   return (
     <div className='cart-dropdown'>

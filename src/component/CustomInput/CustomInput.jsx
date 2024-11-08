@@ -1,16 +1,16 @@
-import React from 'react'
+import React, { forwardRef } from 'react'
 
-const CustomInput = () => {
+const CustomInput = React.forwardRef((props, ref)  => {
   return (
     <div>
-      <center>
-        <input type='email' name='email' placeholder='Email address'/>
+    
+        <input {...otherProps}/>
+        {/* <br></br>
         <br></br>
-        <br></br>
-        <input type='password' name='password' placeholder='Enter password '/>
-        </center>
+        <input type='password' name='password' placeholder='Enter password '/> */}
+       
     </div>
   )
-}
+})
 
 export default CustomInput
